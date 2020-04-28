@@ -2,13 +2,47 @@ body {
     margin: 0;
     font-family: monospace;
 }
-
 nav{
     position: relative;
     padding: 10px;
     background-color: rgb(166, 158, 194);
 }
+#logo{
+    position: absolute;
+    top: 1vh;
+    right: 1vh;
+    width: 3vw;
+}
+#mainlogo{
+    position: relative;
+    margin-top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: logoen 3s 1;
+}
+@keyframes logoen{
+    0%{
+        transform: translateX(-50%) rotateY(0deg);
+    }
+    50%{
+        transform: translateX(-50%) rotateY(90deg);
+    }
+    100%{
+        transform: translateX(-50%) rotateY(360deg);
+    }
+}
 nav > ul{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
+    list-style: none;
+    justify-content: center;
+    column-gap: 1em;
+}
+a, a:visited{
+    color: white;
+    text-decoration: none;
+    padding: 1.2vh;
+    font-size: 1.3em;
+    border: 1px solid white;
+    background-color: rgb(166, 158, 194);
 }
