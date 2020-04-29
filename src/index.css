@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 body {
     margin: 0;
     font-family: monospace;
+    background-image: linear-gradient(to right, #014871, #D7EDE2);
+}
+.overskrifter{
+    font-family: 'Playfair Display', serif;
 }
 nav{
     position: relative;
     padding: 10px;
-    background-color: rgb(166, 158, 194);
+    background-color: #1d638b;
 }
 #logo{
     position: absolute;
@@ -13,36 +19,20 @@ nav{
     right: 1vh;
     width: 3vw;
 }
-#mainlogo{
-    position: relative;
-    margin-top: 10vh;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: logoen 3s 1;
-}
-@keyframes logoen{
-    0%{
-        transform: translateX(-50%) rotateY(0deg);
-    }
-    50%{
-        transform: translateX(-50%) rotateY(90deg);
-    }
-    100%{
-        transform: translateX(-50%) rotateY(360deg);
-    }
-}
+
+
 nav > ul{
     display: grid;
     grid-template-columns: auto auto auto;
     list-style: none;
-    justify-content: center;
+    justify-content: start;
     column-gap: 1em;
 }
 a, a:visited{
-    color: white;
+    color: #D7EDE2;
     text-decoration: none;
     padding: 1.2vh;
     font-size: 1.3em;
-    border: 1px solid white;
-    background-color: rgb(166, 158, 194);
+    border: 1px solid #D7EDE2;
+    background-color: #014871;
 }
