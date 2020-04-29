@@ -23,7 +23,7 @@ nav{
 
 nav > ul{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     list-style: none;
     justify-content: start;
     column-gap: 1em;

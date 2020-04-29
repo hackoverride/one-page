@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import About from "./About";
 import Projects from "./Projects";
 import Home from "./Home";
-import Logo from "./lundlogo.svg";
 
 
 function App() {
@@ -12,11 +11,11 @@ function App() {
         <Router>
             <div>
                 <nav>
-                    <img id="logo" src={Logo} alt="" width="100" />
                     <ul>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/projects">Projects</Link></li>
+                        <li><a href="https://github.com/hackoverride">GitHub</a></li>
                     </ul>
                 </nav>
 
