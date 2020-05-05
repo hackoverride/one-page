@@ -1,0 +1,17 @@
+.prosjekttittel{
+    font-size: 1.5em;
+    list-style: none;
+    color: #D7EDE2;
+    background: #014871;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#nocss{
+    background: none;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+    border: none;
+}

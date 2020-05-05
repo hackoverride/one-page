@@ -6,29 +6,20 @@ function About() {
     return (
 
         <div id="beholder">
-            <h1 className="overskrifter">Michael W. A. Lund</h1>
-            <h2>Education</h2>
-            <table>
-                <tr><th>Date</th><th>Where</th><th>What</th><th>Details</th></tr>
-                <tr><td>2019 -> 2022</td><td>Universitetet i SørØst Norge</td><td>Informasjons </td><td>Java, System utvikling, Web utvikling, Databaser (SQL), Prosjekt utvikling(Scrum)</td></tr>
-                <tr><td>2018</td><td>NTNU (Nettstudier)</td><td>Java programmering</td><td>Karakter: B</td></tr>
-                <tr><td>2005 -> 2007</td><td>International College of Management in Sydney, Australia</td><td>Associates Degree in Hospitality Management</td><td>Area of Study: Leadership, Management, Psychology, Accounting, Economy, Statistics and Law.</td></tr>
-            </table>
+            <h1 className="overskrifter">Michael W.A. Lund</h1>
 
-            <h2>Work Experience</h2>
-            <table>
-                <tr><th>Date</th><th>Where</th><th>What</th><th>Details</th></tr>
-                <tr><td>2009 -> 2020</td><td>Farris Bad and Quality Grand Farris</td><td>Receptionist, Front office, Costumer relations, Booking</td><td>Hotel Domain experience from high intenisty costumer relations team.</td></tr>
-                <tr><td>2006 -> 2009</td><td>Sheraton on the Park</td><td>Concierge - ShiftLeader</td><td>5* Hotel - Front office and responsible for day to day activities and rostering with 37 employees.</td></tr>
-            </table>
-            <h2>Projects</h2>
-            <table>
-                <tr><td>Date</td><td>Name</td><td>Details</td><td>Tech used</td><td>What I learned</td></tr>
-                <tr><td>2019 -> 2020</td><td>Augemented Tattoo-viewer</td><td>Created a website using AR.js to build a design viewer for tattoo studioes</td><td>JavaScript, PHP, SQL, MariaDB, AR.js, CSS</td><td>I was the Product Owner and TeamLead - Worked on AR.js and some Design/Graphics and JavaScript solutions.</td></tr>
-
-            </table>
-            <h2>Certificates</h2>
-
+            <p>I started developing my passion for IT with MSDOS and Windows 3.11 on fifty floppydiscs, continued with HTML (pre css) around the mid-90's with creative table uses.
+            But... I decided to study hospitality management as I wanted to explore the world and work closely with customers.
+            In 2018 I rediscovered programming with basic Java programming from IT-FAG by NTNU. I recieved a 'B' on the exam and was hooked.
+            I am now studying System-development with Agile project management in USN.
+                </p><p>
+                Since 2018 I decided to become the best Full-Stack programmer and developer I can become,
+                right now I am reaching out to find a place where I can continue to level up while working in a relevant position.
+                I am competent in React, JavaScript manipulation and pick up frameworks/other languages fairly quick.
+                In my free-time I do traditional and digital art and run a campaign in the DND universe.
+                Let me know If there is anything I can help out with!
+Thanks :)</p>
+            <a href="http://michaelwalund.com/assets/michaellund.pdf" id="resume"><p className="overskrifter">Download my Resume here</p></a>
         </div>
 
     );
