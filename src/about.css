@@ -4,7 +4,7 @@
 }
 #beholder p{
     font-size: 1.3em;
-    width: 60%;
+    width: 50%;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
