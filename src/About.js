@@ -1,13 +1,10 @@
 import React from "react";
 import "./about.css";
 
-
 function About() {
     return (
-
         <div id="beholder">
             <h1 className="overskrifter">Michael W.A. Lund</h1>
-
             <p>
                 I started developing a passion for IT with MSDOS and Windows 3.11 on a 486 PB,
                 continued with HTML (pre css) around the early to mid-90's with creative table uses.
@@ -27,7 +24,6 @@ function About() {
             </p>
             <a href="http://michaelwalund.com/assets/michaellund.pdf" id="resume"><p className="overskrifter">Download my Resume here</p></a>
         </div>
-
     );
 }
 
