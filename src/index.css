@@ -1,38 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
 body {
-    margin: 0;
-    font-family: monospace;
-    background-image: linear-gradient(to right, #014871, #D7EDE2);
-}
-.overskrifter{
-    font-family: 'Playfair Display', serif;
-}
-nav{
-    position: relative;
-    padding: 10px;
-    background-color: #1d638b;
-}
-#logo{
-    position: relative;
-    top: 1vh;
-    right: 1vh;
-    width: 3vw;
-}
-
-
-nav > ul{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    list-style: none;
-    justify-content: start;
-    column-gap: 1em;
-}
-a, a:visited{
-    color: #D7EDE2;
-    text-decoration: none;
-    padding: 1.2vh;
-    font-size: 1.3em;
-    border: 1px solid #D7EDE2;
-    background-color: #014871;
+  margin: 0;
+  padding: 2vw;
+  background-color: rgb(56, 61, 87);
+  color: white;
 }
